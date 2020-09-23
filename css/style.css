@@ -1,0 +1,144 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.header {
+	max-width: 1240px;
+	padding: 30px 10px 0px 10px;
+	margin: 0 auto;
+}
+.header__logo {
+	margin: 0px 0px 30px 0px;
+}
+.header__logo img {
+	width: 100%;
+	max-width: 800px;
+}
+.header__menu {
+	margin: 0px 0px 40px 0px;
+}
+.menu__list {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.menu__list li {
+	display: inline-block;
+	margin: 0 0 0 100px;
+}
+.menu__link {
+	text-decoration: underline;
+	color: rgb(73, 214, 18);
+}
+/* Main Block */
+.main {
+	padding: 0px 10px 0px 10px;
+	margin: 0 auto;
+}
+
+.paragraph {
+	margin: 0px 0px 50px 0px;
+}
+.paragraph img {
+	width: 100%;
+	max-width: 500px;
+	display: block;
+	margin: 0px 0px 20px 0px;
+}
+
+.paragraph a {
+	background-color: rgb(78, 27, 216);
+	font-size: 20px;
+	color: red;
+}
+
+.title,
+.subtitle {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 2px 3px 1px rgb(78, 27, 216);
+	letter-spacing: 15px;
+	margin: 0px 0px 20px 0px;
+}
+
+.text {
+	background-color: red;
+	height: 100px;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	text-transform: capitalize;
+	margin: 0px 0px 20px 0px;
+}
+.image {
+	margin: 0px 0px 50px 0px;
+}
+.image img {
+	width: 100%;
+	max-width: 300px;
+	margin: 0px 0px 0px 10px;
+}
+.paragraph2 {
+	margin: 0px 0px 30px 0px;
+}
+
+.paragraph2 .title {
+	font-size: 50px;
+	display: inline-block;
+	margin: 0px 0px 20px 50px;
+}
+.subtitle {
+	margin: 0px 0px 40px 0px;
+}
+.paragraph2 .text {
+	background-color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	text-transform: lowercase;
+	display: inline-block;
+	overflow: scroll;
+}
+.social a {
+	font-size: 30px;
+	display: block;
+}
